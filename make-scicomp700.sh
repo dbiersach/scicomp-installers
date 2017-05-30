@@ -23,4 +23,11 @@ cp -ar ~/scicomp-labs-cpp-linux/pendulum/ ~/Desktop/scicomp700/session04/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/harmonograph/ ~/Desktop/scicomp700/session04/lab5/
 cp -ar ~/scicomp-labs-cpp-linux/spectrum-rydberg-instructor/ ~/Desktop/scicomp700/session04/lab6/
 cp -ar ~/scicomp-labs-cpp-linux/spectrum-bohr-instructor/ ~/Desktop/scicomp700/session04/lab7/
-
+cp -ar ~/scicomp-labs-cpp-linux/list-cards-instructor/ ~/Desktop/scicomp700/session05/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/dealer-bogus/ ~/Desktop/scicomp700/session05/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/dealer-slow-instructor/ ~/Desktop/scicomp700/session05/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/dealer-fast/ ~/Desktop/scicomp700/session05/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/stdcf-encode/ ~/Desktop/scicomp700/session05/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/stdcf-decode-instructor/ ~/Desktop/scicomp700/session05/lab6/
+cp -ar ~/scicomp-labs-cpp-linux/jenga-14/ ~/Desktop/scicomp700/session05/lab7/
+cp -ar ~/scicomp-labs-cpp-linux/jenga-15-instructor/ ~/Desktop/scicomp700/session05/lab8/

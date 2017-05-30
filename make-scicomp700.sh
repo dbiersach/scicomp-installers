@@ -16,3 +16,11 @@ cp -ar ~/scicomp-labs-cpp-linux/mc-circle-qrng/ ~/Desktop/scicomp700/session03/l
 cp -ar ~/scicomp-labs-cpp-linux/mc-sphere/ ~/Desktop/scicomp700/session03/lab6/
 cp -ar ~/scicomp-labs-cpp-linux/mc-hypersphere/ ~/Desktop/scicomp700/session03/lab7/
 cp -ar ~/scicomp-labs-cpp-linux/mc-highdimensional/ ~/Desktop/scicomp700/session03/lab8/
+cp -ar ~/scicomp-labs-cpp-linux/projectile-motion/ ~/Desktop/scicomp700/session04/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/decay-fluorine18/ ~/Desktop/scicomp700/session04/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/decay-carbon14-instructor/ ~/Desktop/scicomp700/session04/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/pendulum/ ~/Desktop/scicomp700/session04/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/harmonograph/ ~/Desktop/scicomp700/session04/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/spectrum-rydberg-instructor/ ~/Desktop/scicomp700/session04/lab6/
+cp -ar ~/scicomp-labs-cpp-linux/spectrum-bohr-instructor/ ~/Desktop/scicomp700/session04/lab7/
+

@@ -31,3 +31,9 @@ cp -ar ~/scicomp-labs-cpp-linux/stdcf-encode/ ~/Desktop/scicomp700/session05/lab
 cp -ar ~/scicomp-labs-cpp-linux/stdcf-decode-instructor/ ~/Desktop/scicomp700/session05/lab6/
 cp -ar ~/scicomp-labs-cpp-linux/jenga-14/ ~/Desktop/scicomp700/session05/lab7/
 cp -ar ~/scicomp-labs-cpp-linux/jenga-15-instructor/ ~/Desktop/scicomp700/session05/lab8/
+cp -ar ~/scicomp-labs-cpp-linux/nyquist-known/ ~/Desktop/scicomp700/session06/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/nyquist-unknown/ ~/Desktop/scicomp700/session06/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/make-samples/ ~/Desktop/scicomp700/session06/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/fourier-discrete/ ~/Desktop/scicomp700/session06/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/space-signals/ ~/Desktop/scicomp700/session06/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/sunspots/ ~/Desktop/scicomp700/session06/lab6/

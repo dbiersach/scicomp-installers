@@ -37,3 +37,6 @@ cp -ar ~/scicomp-labs-cpp-linux/make-samples/ ~/Desktop/scicomp700/session06/lab
 cp -ar ~/scicomp-labs-cpp-linux/fourier-discrete/ ~/Desktop/scicomp700/session06/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/space-signals/ ~/Desktop/scicomp700/session06/lab5/
 cp -ar ~/scicomp-labs-cpp-linux/sunspots/ ~/Desktop/scicomp700/session06/lab6/
+cp -ar ~/scicomp-labs-cpp-linux/data-binning-instructor/ ~/Desktop/scicomp700/session07/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/kmeans/ ~/Desktop/scicomp700/session07/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/parallel-simpsons/ ~/Desktop/scicomp700/session07/lab3/

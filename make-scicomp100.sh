@@ -12,3 +12,6 @@ cp -ar ~/scicomp-labs-cpp-linux/jenga-15/ ~/Desktop/scicomp100/session05/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/perfect-numbers/ ~/Desktop/scicomp100/session06/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/newton-sqrt/ ~/Desktop/scicomp100/session06/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/bigint-sqrt/ ~/Desktop/scicomp100/session06/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/hero-abilities/ ~/Desktop/scicomp100/session07/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/uniform-variance/ ~/Desktop/scicomp100/session07/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/birthday-paradox/ ~/Desktop/scicomp100/session07/lab3/

@@ -18,3 +18,7 @@ cp -ar ~/scicomp-labs-cpp-linux/birthday-paradox/ ~/Desktop/scicomp100/session07
 cp -ar ~/scicomp-labs-cpp-linux/basel-series/ ~/Desktop/scicomp100/session09/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/euclid-gcd/ ~/Desktop/scicomp100/session09/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/coprime-probability/ ~/Desktop/scicomp100/session09/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/list-cards/ ~/Desktop/scicomp100/session10/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/dealer-bogus/ ~/Desktop/scicomp100/session10/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/dealer-slow/ ~/Desktop/scicomp100/session10/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/dealer-fast/ ~/Desktop/scicomp100/session10/lab4/

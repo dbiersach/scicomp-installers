@@ -6,3 +6,6 @@ git clone https://github.com/dbiersach/scicomp100-cpp-linux.git ~/Desktop/scicom
 cp -ar ~/scicomp-labs-cpp-linux/hello-world/ ~/Desktop/scicomp100/session03/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/age-converter/ ~/Desktop/scicomp100/session04/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/temperature-converter/ ~/Desktop/scicomp100/session04/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/gauss-sum/ ~/Desktop/scicomp100/session05/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/jenga-14/ ~/Desktop/scicomp100/session05/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/jenga-15/ ~/Desktop/scicomp100/session05/lab3/

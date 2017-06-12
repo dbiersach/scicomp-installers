@@ -22,3 +22,14 @@ cp -ar ~/scicomp-labs-cpp-linux/list-cards/ ~/Desktop/scicomp100/session10/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/dealer-bogus/ ~/Desktop/scicomp100/session10/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/dealer-slow/ ~/Desktop/scicomp100/session10/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/dealer-fast/ ~/Desktop/scicomp100/session10/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/reverse-string/ ~/Desktop/scicomp100/session11/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/freq-plaintext/ ~/Desktop/scicomp100/session11/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/freq-ciphertext/ ~/Desktop/scicomp100/session11/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/caesar-decrypt/ ~/Desktop/scicomp100/session11/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/freq-bigrams/ ~/Desktop/scicomp100/session11/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/scramble-squares/ ~/Desktop/scicomp100/session12/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/draw-triangle/ ~/Desktop/scicomp100/session13/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/draw-rectangle/ ~/Desktop/scicomp100/session13/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/draw-circle/ ~/Desktop/scicomp100/session13/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/draw-rings/ ~/Desktop/scicomp100/session13/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/draw-curves/ ~/Desktop/scicomp100/session13/lab5/

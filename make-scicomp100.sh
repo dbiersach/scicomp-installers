@@ -33,3 +33,8 @@ cp -ar ~/scicomp-labs-cpp-linux/draw-rectangle/ ~/Desktop/scicomp100/session13/l
 cp -ar ~/scicomp-labs-cpp-linux/draw-circle/ ~/Desktop/scicomp100/session13/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/draw-rings/ ~/Desktop/scicomp100/session13/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/draw-curves/ ~/Desktop/scicomp100/session13/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/draw-polynomial/ ~/Desktop/scicomp100/session15/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/draw-monolith/ ~/Desktop/scicomp100/session15/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/draw-pyramid/ ~/Desktop/scicomp100/session15/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/draw-sphere/ ~/Desktop/scicomp100/session15/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/draw-torus/ ~/Desktop/scicomp100/session15/lab5/

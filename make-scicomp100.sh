@@ -41,3 +41,6 @@ cp -ar ~/scicomp-labs-cpp-linux/draw-torus/ ~/Desktop/scicomp100/session15/lab5/
 cp -ar ~/scicomp-labs-cpp-linux/lrss-bubble/ ~/Desktop/scicomp100/session16/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/lrss-qsort/ ~/Desktop/scicomp100/session16/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/idw/ ~/Desktop/scicomp100/session16/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/stdcf-encode/ ~/Desktop/scicomp100/session17/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/stdcf-decode/ ~/Desktop/scicomp100/session17/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/pells-equation/ ~/Desktop/scicomp100/session17/lab3/

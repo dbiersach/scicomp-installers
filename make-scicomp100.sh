@@ -44,3 +44,12 @@ cp -ar ~/scicomp-labs-cpp-linux/idw/ ~/Desktop/scicomp100/session16/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/stdcf-encode/ ~/Desktop/scicomp100/session17/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/stdcf-decode/ ~/Desktop/scicomp100/session17/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/pells-equation/ ~/Desktop/scicomp100/session17/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/ifs-triangle/ ~/Desktop/scicomp100/session18/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/ifs-fern/ ~/Desktop/scicomp100/session18/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/ifs-bnl/ ~/Desktop/scicomp100/session18/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/ifs-square/ ~/Desktop/scicomp100/session18/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/mc-circle-prng/ ~/Desktop/scicomp100/session19/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/mc-circle-qrng/ ~/Desktop/scicomp100/session19/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/mc-sphere/ ~/Desktop/scicomp100/session19/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/mc-hypersphere/ ~/Desktop/scicomp100/session19/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/mc-highdimensional/ ~/Desktop/scicomp100/session19/lab5/

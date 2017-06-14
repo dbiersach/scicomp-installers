@@ -1,6 +1,8 @@
 #!/bin/bash
+rm -f -r ~/scicomp-labs-cpp-linux/
 mkdir ~/scicomp-labs-cpp-linux
 git clone https://github.com/dbiersach/scicomp-labs-cpp-linux.git ~/scicomp-labs-cpp-linux
+rm -f -r ~/Desktop/scicomp100/
 mkdir ~/Desktop/scicomp100
 git clone https://github.com/dbiersach/scicomp100-cpp-linux.git ~/Desktop/scicomp100
 cp -ar ~/scicomp-labs-cpp-linux/hello-world/ ~/Desktop/scicomp100/session03/lab1/
@@ -53,3 +55,4 @@ cp -ar ~/scicomp-labs-cpp-linux/mc-circle-qrng/ ~/Desktop/scicomp100/session19/l
 cp -ar ~/scicomp-labs-cpp-linux/mc-sphere/ ~/Desktop/scicomp100/session19/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/mc-hypersphere/ ~/Desktop/scicomp100/session19/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/mc-highdimensional/ ~/Desktop/scicomp100/session19/lab5/
+

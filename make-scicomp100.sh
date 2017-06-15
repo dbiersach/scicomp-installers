@@ -60,5 +60,7 @@ cp -ar ~/scicomp-labs-cpp-linux/decay-fluorine18/ ~/Desktop/scicomp100/session21
 cp -ar ~/scicomp-labs-cpp-linux/decay-carbon14/ ~/Desktop/scicomp100/session21/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/pendulum/ ~/Desktop/scicomp100/session21/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/harmonograph/ ~/Desktop/scicomp100/session21/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/spectrum-rydberg/ ~/Desktop/scicomp100/session22/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/spectrum-bohr/ ~/Desktop/scicomp100/session22/lab2/
 
 

@@ -55,4 +55,10 @@ cp -ar ~/scicomp-labs-cpp-linux/mc-circle-qrng/ ~/Desktop/scicomp100/session19/l
 cp -ar ~/scicomp-labs-cpp-linux/mc-sphere/ ~/Desktop/scicomp100/session19/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/mc-hypersphere/ ~/Desktop/scicomp100/session19/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/mc-highdimensional/ ~/Desktop/scicomp100/session19/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/projectile-motion/ ~/Desktop/scicomp100/session21/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/decay-fluorine18/ ~/Desktop/scicomp100/session21/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/decay-carbon14/ ~/Desktop/scicomp100/session21/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/pendulum/ ~/Desktop/scicomp100/session21/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/harmonograph/ ~/Desktop/scicomp100/session21/lab5/
+
 

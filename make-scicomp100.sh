@@ -37,6 +37,7 @@ cp -ar ~/scicomp-labs-cpp-linux/draw-circle/ ~/Desktop/scicomp100/session13/lab3
 cp -ar ~/scicomp-labs-cpp-linux/draw-rings/ ~/Desktop/scicomp100/session13/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/draw-curves/ ~/Desktop/scicomp100/session13/lab5/
 cp -ar ~/scicomp-labs-cpp-linux/maze-draw/ ~/Desktop/scicomp100/session14/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/maze-search/ ~/Desktop/scicomp100/session14/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/draw-polynomial/ ~/Desktop/scicomp100/session15/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/draw-monolith/ ~/Desktop/scicomp100/session15/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/draw-pyramid/ ~/Desktop/scicomp100/session15/lab3/

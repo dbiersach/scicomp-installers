@@ -8,4 +8,6 @@ git clone https://github.com/dbiersach/scicomp020-cpp-linux.git ~/Desktop/scicom
 cp -ar ~/scicomp-labs-cpp-linux/hello-world/ ~/Desktop/scicomp020/session01/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/age-converter/ ~/Desktop/scicomp020/session01/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/temperature-converter/ ~/Desktop/scicomp020/session01/lab3/
-
+cp -ar ~/scicomp-labs-cpp-linux/perfect-numbers/ ~/Desktop/scicomp020/session02/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/newton-sqrt/ ~/Desktop/scicomp020/session02/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/factor-quadratic/ ~/Desktop/scicomp020/session02/lab3/

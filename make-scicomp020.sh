@@ -16,4 +16,6 @@ cp -ar ~/scicomp-labs-cpp-linux/dealer-bogus/ ~/Desktop/scicomp020/session03/lab
 cp -ar ~/scicomp-labs-cpp-linux/dealer-slow/ ~/Desktop/scicomp020/session03/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/dealer-fast/ ~/Desktop/scicomp020/session03/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/primality-race-v1/ ~/Desktop/scicomp020/session03/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/circuits-logisim/ ~/Desktop/scicomp020/session04/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/circuits-logisim/ ~/Desktop/scicomp020/session04/lab3/
 

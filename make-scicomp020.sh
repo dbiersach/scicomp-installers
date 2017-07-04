@@ -21,4 +21,9 @@ cp -ar ~/scicomp-labs-cpp-linux/circuits-logisim/ ~/Desktop/scicomp020/session04
 cp -ar ~/scicomp-labs-cpp-linux/basel-series/ ~/Desktop/scicomp020/session05/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/euclid-gcd/ ~/Desktop/scicomp020/session05/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/coprime-probability/ ~/Desktop/scicomp020/session05/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/draw-triangle/ ~/Desktop/scicomp020/session06/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/draw-rectangle/ ~/Desktop/scicomp020/session06/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/draw-circle/ ~/Desktop/scicomp020/session06/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/draw-rings/ ~/Desktop/scicomp020/session06/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/draw-curves/ ~/Desktop/scicomp020/session06/lab5/
 

@@ -29,4 +29,6 @@ cp -ar ~/scicomp-labs-cpp-linux/draw-curves/ ~/Desktop/scicomp020/session06/lab5
 cp -ar ~/scicomp-labs-cpp-linux/hero-abilities/ ~/Desktop/scicomp020/session07/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/uniform-variance/ ~/Desktop/scicomp020/session07/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/random-straws/ ~/Desktop/scicomp020/session07/lab3/
-
+cp -ar ~/scicomp-labs-cpp-linux/gauss-sum/ ~/Desktop/scicomp020/session08/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/jenga-14/ ~/Desktop/scicomp020/session08/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/jenga-15/ ~/Desktop/scicomp020/session08/lab3/

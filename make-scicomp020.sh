@@ -18,4 +18,7 @@ cp -ar ~/scicomp-labs-cpp-linux/dealer-fast/ ~/Desktop/scicomp020/session03/lab4
 cp -ar ~/scicomp-labs-cpp-linux/primality-race-v1/ ~/Desktop/scicomp020/session03/lab5/
 cp -ar ~/scicomp-labs-cpp-linux/circuits-logisim/ ~/Desktop/scicomp020/session04/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/circuits-logisim/ ~/Desktop/scicomp020/session04/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/basel-series/ ~/Desktop/scicomp020/session05/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/euclid-gcd/ ~/Desktop/scicomp020/session05/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/coprime-probability/ ~/Desktop/scicomp020/session05/lab3/
 

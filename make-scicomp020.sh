@@ -26,4 +26,7 @@ cp -ar ~/scicomp-labs-cpp-linux/draw-rectangle/ ~/Desktop/scicomp020/session06/l
 cp -ar ~/scicomp-labs-cpp-linux/draw-circle/ ~/Desktop/scicomp020/session06/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/draw-rings/ ~/Desktop/scicomp020/session06/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/draw-curves/ ~/Desktop/scicomp020/session06/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/hero-abilities/ ~/Desktop/scicomp020/session07/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/uniform-variance/ ~/Desktop/scicomp020/session07/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/random-straws/ ~/Desktop/scicomp020/session07/lab3/
 

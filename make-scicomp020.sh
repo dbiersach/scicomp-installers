@@ -11,3 +11,9 @@ cp -ar ~/scicomp-labs-cpp-linux/temperature-converter/ ~/Desktop/scicomp020/sess
 cp -ar ~/scicomp-labs-cpp-linux/perfect-numbers/ ~/Desktop/scicomp020/session02/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/newton-sqrt/ ~/Desktop/scicomp020/session02/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/factor-quadratic/ ~/Desktop/scicomp020/session02/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/list-cards/ ~/Desktop/scicomp020/session03/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/dealer-bogus/ ~/Desktop/scicomp020/session03/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/dealer-slow/ ~/Desktop/scicomp020/session03/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/dealer-fast/ ~/Desktop/scicomp020/session03/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/primality-race-v1/ ~/Desktop/scicomp020/session03/lab5/
+

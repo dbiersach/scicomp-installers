@@ -32,3 +32,8 @@ cp -ar ~/scicomp-labs-cpp-linux/random-straws/ ~/Desktop/scicomp020/session07/la
 cp -ar ~/scicomp-labs-cpp-linux/gauss-sum/ ~/Desktop/scicomp020/session08/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/jenga-14/ ~/Desktop/scicomp020/session08/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/jenga-15/ ~/Desktop/scicomp020/session08/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/stdcf-encode/ ~/Desktop/scicomp020/session09/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/stdcf-decode/ ~/Desktop/scicomp020/session09/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/pells-equation/ ~/Desktop/scicomp020/session09/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/pachinko-normal/ ~/Desktop/scicomp020/session09/lab4/
+

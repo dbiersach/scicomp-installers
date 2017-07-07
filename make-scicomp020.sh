@@ -36,4 +36,10 @@ cp -ar ~/scicomp-labs-cpp-linux/stdcf-encode/ ~/Desktop/scicomp020/session09/lab
 cp -ar ~/scicomp-labs-cpp-linux/stdcf-decode/ ~/Desktop/scicomp020/session09/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/pells-equation/ ~/Desktop/scicomp020/session09/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/pachinko-normal/ ~/Desktop/scicomp020/session09/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/nyquist-known/ ~/Desktop/scicomp020/session10/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/nyquist-unknown/ ~/Desktop/scicomp020/session10/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/complex-algebra/ ~/Desktop/scicomp020/session10/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/euler-identity/ ~/Desktop/scicomp020/session10/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/euler-equation/ ~/Desktop/scicomp020/session10/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/euler-line/ ~/Desktop/scicomp020/session10/lab6/
 

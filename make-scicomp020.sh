@@ -42,4 +42,14 @@ cp -ar ~/scicomp-labs-cpp-linux/complex-algebra/ ~/Desktop/scicomp020/session10/
 cp -ar ~/scicomp-labs-cpp-linux/euler-identity/ ~/Desktop/scicomp020/session10/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/euler-equation/ ~/Desktop/scicomp020/session10/lab5/
 cp -ar ~/scicomp-labs-cpp-linux/euler-line/ ~/Desktop/scicomp020/session10/lab6/
+cp -ar ~/scicomp-labs-cpp-linux/reverse-string/ ~/Desktop/scicomp020/session11/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/freq-plaintext/ ~/Desktop/scicomp020/session11/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/freq-ciphertext/ ~/Desktop/scicomp020/session11/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/caesar-decrypt/ ~/Desktop/scicomp020/session11/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/freq-bigrams/ ~/Desktop/scicomp020/session11/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/anagrams-slow/ ~/Desktop/scicomp020/session11/lab6/
+cp -ar ~/scicomp-labs-cpp-linux/anagrams-fast/ ~/Desktop/scicomp020/session11/lab7/
+cp -ar ~/scicomp-labs-cpp-linux/anagrams-compound/ ~/Desktop/scicomp020/session11/lab8/
+cp -ar ~/scicomp-labs-cpp-linux/scramble-squares/ ~/Desktop/scicomp020/session12/lab1/
+
 

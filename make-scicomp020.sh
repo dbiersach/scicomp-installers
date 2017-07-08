@@ -51,5 +51,10 @@ cp -ar ~/scicomp-labs-cpp-linux/anagrams-slow/ ~/Desktop/scicomp020/session11/la
 cp -ar ~/scicomp-labs-cpp-linux/anagrams-fast/ ~/Desktop/scicomp020/session11/lab7/
 cp -ar ~/scicomp-labs-cpp-linux/anagrams-compound/ ~/Desktop/scicomp020/session11/lab8/
 cp -ar ~/scicomp-labs-cpp-linux/scramble-squares/ ~/Desktop/scicomp020/session12/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/draw-polynomial/ ~/Desktop/scicomp020/session13/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/draw-monolith/ ~/Desktop/scicomp020/session13/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/draw-pyramid/ ~/Desktop/scicomp020/session13/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/draw-sphere/ ~/Desktop/scicomp020/session13/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/draw-torus/ ~/Desktop/scicomp020/session13/lab5/
 
 

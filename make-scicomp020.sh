@@ -72,6 +72,6 @@ cp -ar ~/scicomp-labs-cpp-linux/mc-sphere/ ~/Desktop/scicomp020/session16/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/mc-hypersphere/ ~/Desktop/scicomp020/session16/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/mc-highdimensional/ ~/Desktop/scicomp020/session16/lab5/
 cp -ar ~/scicomp-labs-cpp-linux/collatz-conjecture/ ~/Desktop/scicomp020/session16/lab6/
-
-
+cp -ar ~/scicomp-labs-cpp-linux/stoichiometry/ ~/Desktop/scicomp020/session17/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/kmeans/ ~/Desktop/scicomp020/session17/lab2/
 

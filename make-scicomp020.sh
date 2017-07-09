@@ -66,4 +66,12 @@ cp -ar ~/scicomp-labs-cpp-linux/decay-fluorine18/ ~/Desktop/scicomp020/session15
 cp -ar ~/scicomp-labs-cpp-linux/decay-carbon14/ ~/Desktop/scicomp020/session15/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/pendulum/ ~/Desktop/scicomp020/session15/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/harmonograph/ ~/Desktop/scicomp020/session15/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/mc-circle-prng/ ~/Desktop/scicomp020/session16/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/mc-circle-qrng/ ~/Desktop/scicomp020/session16/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/mc-sphere/ ~/Desktop/scicomp020/session16/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/mc-hypersphere/ ~/Desktop/scicomp020/session16/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/mc-highdimensional/ ~/Desktop/scicomp020/session16/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/collatz-conjecture/ ~/Desktop/scicomp020/session16/lab6/
+
+
 

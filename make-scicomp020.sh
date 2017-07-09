@@ -74,4 +74,15 @@ cp -ar ~/scicomp-labs-cpp-linux/mc-highdimensional/ ~/Desktop/scicomp020/session
 cp -ar ~/scicomp-labs-cpp-linux/collatz-conjecture/ ~/Desktop/scicomp020/session16/lab6/
 cp -ar ~/scicomp-labs-cpp-linux/stoichiometry/ ~/Desktop/scicomp020/session17/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/kmeans/ ~/Desktop/scicomp020/session17/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/make-samples/ ~/Desktop/scicomp020/session18/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/fourier-discrete/ ~/Desktop/scicomp020/session18/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/space-signals/ ~/Desktop/scicomp020/session18/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/sunspots/ ~/Desktop/scicomp020/session18/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/spectrum-rydberg/ ~/Desktop/scicomp020/session19/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/spectrum-bohr/ ~/Desktop/scicomp020/session19/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/complex-factorization/ ~/Desktop/scicomp020/session19/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/ifs-triangle/ ~/Desktop/scicomp020/session20/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/ifs-fern/ ~/Desktop/scicomp020/session20/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/ifs-bnl/ ~/Desktop/scicomp020/session20/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/ifs-square/ ~/Desktop/scicomp020/session20/lab4/
 

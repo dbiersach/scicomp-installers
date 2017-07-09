@@ -56,5 +56,14 @@ cp -ar ~/scicomp-labs-cpp-linux/draw-monolith/ ~/Desktop/scicomp020/session13/la
 cp -ar ~/scicomp-labs-cpp-linux/draw-pyramid/ ~/Desktop/scicomp020/session13/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/draw-sphere/ ~/Desktop/scicomp020/session13/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/draw-torus/ ~/Desktop/scicomp020/session13/lab5/
-
+cp -ar ~/scicomp-labs-cpp-linux/lrss-bubble/ ~/Desktop/scicomp020/session14/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/lrss-qsort/ ~/Desktop/scicomp020/session14/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/freq-substr/ ~/Desktop/scicomp020/session14/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/idw/ ~/Desktop/scicomp020/session14/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/birthday-paradox/ ~/Desktop/scicomp020/session14/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/projectile-motion/ ~/Desktop/scicomp020/session15/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/decay-fluorine18/ ~/Desktop/scicomp020/session15/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/decay-carbon14/ ~/Desktop/scicomp020/session15/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/pendulum/ ~/Desktop/scicomp020/session15/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/harmonograph/ ~/Desktop/scicomp020/session15/lab5/
 

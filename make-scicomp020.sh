@@ -85,4 +85,8 @@ cp -ar ~/scicomp-labs-cpp-linux/ifs-triangle/ ~/Desktop/scicomp020/session20/lab
 cp -ar ~/scicomp-labs-cpp-linux/ifs-fern/ ~/Desktop/scicomp020/session20/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/ifs-bnl/ ~/Desktop/scicomp020/session20/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/ifs-square/ ~/Desktop/scicomp020/session20/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/maze-draw/ ~/Desktop/scicomp020/session21/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/maze-search/ ~/Desktop/scicomp020/session21/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/maze-search-adj/ ~/Desktop/scicomp020/session21/lab3/
+
 

@@ -88,5 +88,7 @@ cp -ar ~/scicomp-labs-cpp-linux/ifs-square/ ~/Desktop/scicomp020/session20/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/maze-draw/ ~/Desktop/scicomp020/session21/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/maze-search/ ~/Desktop/scicomp020/session21/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/maze-search-adj/ ~/Desktop/scicomp020/session21/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/logistic-map/ ~/Desktop/scicomp020/session26/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/mandelbrot-set/ ~/Desktop/scicomp020/session26/lab2/
 
 

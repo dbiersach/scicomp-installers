@@ -88,7 +88,16 @@ cp -ar ~/scicomp-labs-cpp-linux/ifs-square/ ~/Desktop/scicomp020/session20/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/maze-draw/ ~/Desktop/scicomp020/session21/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/maze-search/ ~/Desktop/scicomp020/session21/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/maze-search-adj/ ~/Desktop/scicomp020/session21/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/cramers-rule/ ~/Desktop/scicomp020/session25/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/quadratic-regression/ ~/Desktop/scicomp020/session25/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/logistic-map/ ~/Desktop/scicomp020/session26/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/mandelbrot-set/ ~/Desktop/scicomp020/session26/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/data-binning/ ~/Desktop/scicomp020/session29/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/simple-threading/ ~/Desktop/scicomp020/session29/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/race-condition/ ~/Desktop/scicomp020/session29/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/mutex/ ~/Desktop/scicomp020/session29/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/nonatomic-op/ ~/Desktop/scicomp020/session29/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/thread-safety/ ~/Desktop/scicomp020/session29/lab6/
+cp -ar ~/scicomp-labs-cpp-linux/parallel-simpsons/ ~/Desktop/scicomp020/session29/lab7/
 
 

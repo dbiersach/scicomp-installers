@@ -29,6 +29,15 @@ cp -ar ~/scicomp-labs-cpp-linux/hero-abilities/ ~/Desktop/scicomp301/session06/l
 cp -ar ~/scicomp-labs-cpp-linux/uniform-variance/ ~/Desktop/scicomp301/session06/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/random-straws/ ~/Desktop/scicomp301/session06/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/euler-line/ ~/Desktop/scicomp301/session06/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/sum-squares/ ~/Desktop/scicomp301/session07/.demo-lab1/
+cp -ar ~/scicomp-labs-cpp-linux/bubble-sort/ ~/Desktop/scicomp301/session07/.demo-lab2/
+cp -ar ~/scicomp-labs-cpp-linux/euler-totient/ ~/Desktop/scicomp301/session07/.demo-lab3/
+cp -ar ~/scicomp-labs-cpp-linux/herons-formula/ ~/Desktop/scicomp301/session07/.demo-lab4/
+cp -ar ~/scicomp-labs-cpp-linux/statistics/ ~/Desktop/scicomp301/session07/.demo-lab5/
+cp -ar ~/scicomp-labs-cpp-linux/basel-series/ ~/Desktop/scicomp301/session08/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/euclid-gcd/ ~/Desktop/scicomp301/session08/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/coprime-probability/ ~/Desktop/scicomp301/session08/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/birthday-paradox/ ~/Desktop/scicomp301/session08/lab4/
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rm -f -r ~/Desktop/scicomp301-old/
 

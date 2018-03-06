@@ -45,6 +45,17 @@ cp -ar ~/scicomp-labs-cpp-linux/stdcf-encode/ ~/Desktop/scicomp301/session12/lab
 cp -ar ~/scicomp-labs-cpp-linux/stdcf-decode/ ~/Desktop/scicomp301/session12/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/pells-equation/ ~/Desktop/scicomp301/session12/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/pachinko-normal/ ~/Desktop/scicomp301/session12/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/nyquist-known/ ~/Desktop/scicomp301/session13/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/nyquist-unknown/ ~/Desktop/scicomp301/session13/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/collatz-conjecture/ ~/Desktop/scicomp301/session13/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/reverse-string/ ~/Desktop/scicomp301/session14/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/freq-plaintext/ ~/Desktop/scicomp301/session14/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/freq-ciphertext/ ~/Desktop/scicomp301/session14/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/caesar-decrypt/ ~/Desktop/scicomp301/session14/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/freq-bigrams/ ~/Desktop/scicomp301/session14/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/anagrams-slow/ ~/Desktop/scicomp301/session14/lab6/
+cp -ar ~/scicomp-labs-cpp-linux/anagrams-fast/ ~/Desktop/scicomp301/session14/lab7/
+cp -ar ~/scicomp-labs-cpp-linux/anagrams-compound/ ~/Desktop/scicomp301/session14/lab8/
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rm -f -r ~/Desktop/scicomp301-old/
 

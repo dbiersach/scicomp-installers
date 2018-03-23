@@ -65,6 +65,8 @@ cp -ar ~/scicomp-labs-cpp-linux/freq-bigrams/ ~/Desktop/scicomp301/session14/lab
 cp -ar ~/scicomp-labs-cpp-linux/anagrams-slow/ ~/Desktop/scicomp301/session14/lab6/
 cp -ar ~/scicomp-labs-cpp-linux/anagrams-fast/ ~/Desktop/scicomp301/session14/lab7/
 cp -ar ~/scicomp-labs-cpp-linux/anagrams-compound/ ~/Desktop/scicomp301/session14/lab8/
+cp -ar ~/scicomp-labs-cpp-linux/stoichiometry/ ~/Desktop/scicomp301/session20/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/kmeans/ ~/Desktop/scicomp301/session20/lab2/
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rm -f -r ~/Desktop/scicomp301-old/
 

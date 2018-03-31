@@ -65,8 +65,19 @@ cp -ar ~/scicomp-labs-cpp-linux/freq-bigrams/ ~/Desktop/scicomp301/session14/lab
 cp -ar ~/scicomp-labs-cpp-linux/anagrams-slow/ ~/Desktop/scicomp301/session14/lab6/
 cp -ar ~/scicomp-labs-cpp-linux/anagrams-fast/ ~/Desktop/scicomp301/session14/lab7/
 cp -ar ~/scicomp-labs-cpp-linux/anagrams-compound/ ~/Desktop/scicomp301/session14/lab8/
-cp -ar ~/scicomp-labs-cpp-linux/stoichiometry/ ~/Desktop/scicomp301/session20/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/kmeans/ ~/Desktop/scicomp301/session20/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/factorial-recursive/ ~/Desktop/scicomp301/session15/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/scramble-squares/ ~/Desktop/scicomp301/session15/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/draw-polynomial/ ~/Desktop/scicomp301/session16/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/draw-monolith/ ~/Desktop/scicomp301/session16/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/draw-pyramid/ ~/Desktop/scicomp301/session16/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/draw-sphere/ ~/Desktop/scicomp301/session16/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/draw-torus/ ~/Desktop/scicomp301/session16/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/stoichiometry/ ~/Desktop/scicomp301/session17/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/kmeans/ ~/Desktop/scicomp301/session17/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/lrss-bubble/ ~/Desktop/scicomp301/session18/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/lrss-qsort/ ~/Desktop/scicomp301/session18/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/freq-substr/ ~/Desktop/scicomp301/session18/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/idw/ ~/Desktop/scicomp301/session18/lab4/
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rm -f -r ~/Desktop/scicomp301-old/
 

@@ -49,7 +49,8 @@ cp -ar ~/scicomp-labs-cpp-linux/complex-algebra/ ~/Desktop/scicomp301/session11/
 cp -ar ~/scicomp-labs-cpp-linux/complex-factorization/ ~/Desktop/scicomp301/session11/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/euler-identity/ ~/Desktop/scicomp301/session11/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/euler-equation/ ~/Desktop/scicomp301/session11/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/riemann-hypothesis/ ~/Desktop/scicomp301/session11/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/euler-gamma/ ~/Desktop/scicomp301/session11/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/riemann-hypothesis/ ~/Desktop/scicomp301/session11/lab6/
 cp -ar ~/scicomp-labs-cpp-linux/stdcf-encode/ ~/Desktop/scicomp301/session12/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/stdcf-decode/ ~/Desktop/scicomp301/session12/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/pells-equation/ ~/Desktop/scicomp301/session12/lab3/

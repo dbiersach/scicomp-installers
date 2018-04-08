@@ -79,6 +79,17 @@ cp -ar ~/scicomp-labs-cpp-linux/lrss-bubble/ ~/Desktop/scicomp301/session18/lab1
 cp -ar ~/scicomp-labs-cpp-linux/lrss-qsort/ ~/Desktop/scicomp301/session18/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/freq-substr/ ~/Desktop/scicomp301/session18/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/idw/ ~/Desktop/scicomp301/session18/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/projectile-motion/ ~/Desktop/scicomp301/session19/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/decay-fluorine18/ ~/Desktop/scicomp301/session19/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/decay-carbon14/ ~/Desktop/scicomp301/session19/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/pendulum/ ~/Desktop/scicomp301/session19/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/harmonograph/ ~/Desktop/scicomp301/session19/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/mc-circle-prng/ ~/Desktop/scicomp301/session20/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/mc-circle-qrng/ ~/Desktop/scicomp301/session20/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/mc-sphere/ ~/Desktop/scicomp301/session20/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/mc-hypersphere/ ~/Desktop/scicomp301/session20/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/mc-highdimensional/ ~/Desktop/scicomp301/session20/lab5/
+cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/session20/lab6/
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rm -f -r ~/Desktop/scicomp301-old/
 

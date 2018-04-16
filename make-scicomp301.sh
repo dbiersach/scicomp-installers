@@ -90,6 +90,16 @@ cp -ar ~/scicomp-labs-cpp-linux/mc-sphere/ ~/Desktop/scicomp301/session20/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/mc-hypersphere/ ~/Desktop/scicomp301/session20/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/mc-highdimensional/ ~/Desktop/scicomp301/session20/lab5/
 cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/session20/lab6/
+cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/exam2/q01/solve4x4-given
+cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/exam2/q02/solve10x10-random
+cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/exam2/q03/riemann-pi
+cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/exam2/q04/gamma-eta
+cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/exam2/q05/stdcf-biersach
+cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/exam2/q06/stdnormal-area
+cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/exam2/q07/decrypt-ciphertext
+cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/exam2/q08/find-orf
+cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/exam2/q09/draw-cylinder
+cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/exam2/q10/sinewave-7x13
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rm -f -r ~/Desktop/scicomp301-old/
 

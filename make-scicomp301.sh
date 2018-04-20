@@ -100,6 +100,13 @@ cp -ar ~/scicomp-labs-cpp-linux/decrypt-ciphertext/ ~/Desktop/scicomp301/exam2/q
 cp -ar ~/scicomp-labs-cpp-linux/find-orf/ ~/Desktop/scicomp301/exam2/q08/
 cp -ar ~/scicomp-labs-cpp-linux/draw-cylinder/ ~/Desktop/scicomp301/exam2/q09/
 cp -ar ~/scicomp-labs-cpp-linux/sinewave-7x13/ ~/Desktop/scicomp301/exam2/q10/
+cp -ar ~/scicomp-labs-cpp-linux/make-samples/ ~/Desktop/scicomp301/session21/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/fourier-discrete/ ~/Desktop/scicomp301/session21/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/space-signals/ ~/Desktop/scicomp301/session21/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/sunspots/ ~/Desktop/scicomp301/session21/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/maze-draw/ ~/Desktop/scicomp301/session22/lab1/
+cp -ar ~/scicomp-labs-cpp-linux/maze-search/ ~/Desktop/scicomp301/session22/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/maze-search-adj/ ~/Desktop/scicomp301/session22/lab3/
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rm -f -r ~/Desktop/scicomp301-old/
 

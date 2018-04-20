@@ -107,6 +107,7 @@ cp -ar ~/scicomp-labs-cpp-linux/sunspots/ ~/Desktop/scicomp301/session21/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/maze-draw/ ~/Desktop/scicomp301/session22/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/maze-search/ ~/Desktop/scicomp301/session22/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/maze-search-adj/ ~/Desktop/scicomp301/session22/lab3/
+cp -ar ~/scicomp-labs-cpp-linux/quadratic-regression/ ~/Desktop/scicomp301/session23/lab5/
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rm -f -r ~/Desktop/scicomp301-old/
 

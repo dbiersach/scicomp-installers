@@ -114,6 +114,15 @@ cp -ar ~/scicomp-labs-cpp-linux/ifs-triangle/ ~/Desktop/scicomp301/session24/lab
 cp -ar ~/scicomp-labs-cpp-linux/ifs-fern/ ~/Desktop/scicomp301/session24/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/ifs-bnl/ ~/Desktop/scicomp301/session24/lab5/
 cp -ar ~/scicomp-labs-cpp-linux/ifs-square/ ~/Desktop/scicomp301/session24/lab6/
+cp -ar ~/scicomp-labs-cpp-linux/rk4-lv/ ~/Desktop/scicomp301/exam3/q01/
+cp -ar ~/scicomp-labs-cpp-linux/damped-pendulum/ ~/Desktop/scicomp301/exam3/q02/
+cp -ar ~/scicomp-labs-cpp-linux/dft2-filter/ ~/Desktop/scicomp301/exam3/q03/
+cp -ar ~/scicomp-labs-cpp-linux/kinematics-regression/ ~/Desktop/scicomp301/exam3/q04/
+cp -ar ~/scicomp-labs-cpp-linux/octane-combustion/ ~/Desktop/scicomp301/exam3/q05/
+cp -ar ~/scicomp-labs-cpp-linux/ifs-hexagon/ ~/Desktop/scicomp301/exam3/q06/
+cp -ar ~/scicomp-labs-cpp-linux/idw2/ ~/Desktop/scicomp301/exam3/q07/
+cp -ar ~/scicomp-labs-cpp-linux/mc-stdnormal/ ~/Desktop/scicomp301/exam3/q08/
+cp -ar ~/scicomp-labs-cpp-linux/kmeans-3sigma/ ~/Desktop/scicomp301/exam3/q09/
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rm -f -r ~/Desktop/scicomp301-old/
 

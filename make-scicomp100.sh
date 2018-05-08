@@ -2,7 +2,7 @@
 rm -f -r ~/scicomp-labs-cpp-linux/
 mkdir ~/scicomp-labs-cpp-linux
 git clone https://github.com/dbiersach/scicomp-labs-cpp-linux.git ~/scicomp-labs-cpp-linux
-rm -f -r ~/Desktop/scicomp100/
+mv -T ~/Desktop/scicomp100 ~/Desktop/scicomp100-old
 mkdir ~/Desktop/scicomp100
 git clone https://github.com/dbiersach/scicomp100-cpp-linux.git ~/Desktop/scicomp100
 cp -ar ~/scicomp-labs-cpp-linux/hello-world/ ~/Desktop/scicomp100/session02/lab1/
@@ -67,5 +67,7 @@ cp -ar ~/scicomp-labs-cpp-linux/pendulum/ ~/Desktop/scicomp100/session21/lab4/
 cp -ar ~/scicomp-labs-cpp-linux/harmonograph/ ~/Desktop/scicomp100/session21/lab5/
 cp -ar ~/scicomp-labs-cpp-linux/spectrum-rydberg/ ~/Desktop/scicomp100/session22/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/spectrum-bohr/ ~/Desktop/scicomp100/session22/lab2/
-
+cp -ar ~/scicomp-labs-cpp-linux/tictactoe-whowon/ ~/Desktop/scicomp100/session23/lab1/
+rsync -av --exclude=".*" ~/Desktop/scicomp100-old/ ~/Desktop/scicomp100/
+rm -f -r ~/Desktop/scicomp100-old/
 

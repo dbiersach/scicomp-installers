@@ -38,6 +38,16 @@ cp -ar ~/scicomp-labs-cpp-linux/basel-series/ ~/Desktop/scicomp301/session08/lab
 cp -ar ~/scicomp-labs-cpp-linux/euclid-gcd/ ~/Desktop/scicomp301/session08/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/coprime-probability/ ~/Desktop/scicomp301/session08/lab3/
 cp -ar ~/scicomp-labs-cpp-linux/birthday-paradox/ ~/Desktop/scicomp301/session08/lab4/
+cp -ar ~/scicomp-labs-cpp-linux/herons-method/ ~/Desktop/scicomp301/exam1/q01/
+cp -ar ~/scicomp-labs-cpp-linux/adaptive-quadrature/ ~/Desktop/scicomp301/exam1/q02/
+cp -ar ~/scicomp-labs-cpp-linux/sum-multiples/ ~/Desktop/scicomp301/exam1/q03/
+cp -ar ~/scicomp-labs-cpp-linux/temperature-converter2/ ~/Desktop/scicomp301/exam1/q04/
+cp -ar ~/scicomp-labs-cpp-linux/qsort-median3/ ~/Desktop/scicomp301/exam1/q05/
+cp -ar ~/scicomp-labs-cpp-linux/gcd-lcm/ ~/Desktop/scicomp301/exam1/q06/
+cp -ar ~/scicomp-labs-cpp-linux/vector-addition/ ~/Desktop/scicomp301/exam1/q07/
+cp -ar ~/scicomp-labs-cpp-linux/hamming-weight/ ~/Desktop/scicomp301/exam1/q08/
+cp -ar ~/scicomp-labs-cpp-linux/multi-modal/ ~/Desktop/scicomp301/exam1/q09/
+cp -ar ~/scicomp-labs-cpp-linux/lattice-circle/ ~/Desktop/scicomp301/exam1/q10/
 cp -ar ~/scicomp-labs-cpp-linux/gauss-sum/ ~/Desktop/scicomp301/session09/lab1/
 cp -ar ~/scicomp-labs-cpp-linux/jenga-14/ ~/Desktop/scicomp301/session09/lab2/
 cp -ar ~/scicomp-labs-cpp-linux/jenga-15/ ~/Desktop/scicomp301/session09/lab3/

@@ -43,7 +43,7 @@ cp -ar ~/scicomp-labs-cpp-linux/adaptive-quadrature/ ~/Desktop/scicomp301/exam1/
 cp -ar ~/scicomp-labs-cpp-linux/sum-multiples/ ~/Desktop/scicomp301/exam1/q03/
 cp -ar ~/scicomp-labs-cpp-linux/temperature-converter2/ ~/Desktop/scicomp301/exam1/q04/
 cp -ar ~/scicomp-labs-cpp-linux/qsort-median3/ ~/Desktop/scicomp301/exam1/q05/
-cp -ar ~/scicomp-labs-cpp-linux/gcd-lcm/ ~/Desktop/scicomp301/exam1/q06/
+cp -ar ~/scicomp-labs-cpp-linux/lcm-gcd/ ~/Desktop/scicomp301/exam1/q06/
 cp -ar ~/scicomp-labs-cpp-linux/vector-addition/ ~/Desktop/scicomp301/exam1/q07/
 cp -ar ~/scicomp-labs-cpp-linux/hamming-weight/ ~/Desktop/scicomp301/exam1/q08/
 cp -ar ~/scicomp-labs-cpp-linux/multi-modal/ ~/Desktop/scicomp301/exam1/q09/

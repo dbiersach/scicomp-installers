@@ -2,8 +2,13 @@
 rm -f -r ~/scicomp-labs-cpp-linux/
 mkdir ~/scicomp-labs-cpp-linux
 git clone https://github.com/dbiersach/scicomp-labs-cpp-linux.git ~/scicomp-labs-cpp-linux
+rm -f -r ~/scicomp-labs-cpp-linux-clang
+mkdir ~/scicomp-labs-cpp-linux-clang
+git clone https://github.com/dbiersach/scicomp-labs-cpp-linux-clang ~/scicomp-labs-cpp-linux-clang
+rm -f -r ~/scicomp-labs-cpp-linux-cernroot
+mkdir ~/scicomp-labs-cpp-linux-cernroot
+git clone https://github.com/dbiersach/scicomp-labs-cpp-linux-cernroot ~/scicomp-labs-cpp-linux-cernroot
 mv -T ~/Desktop/scicomp301 ~/Desktop/scicomp301-old
-#rm -f -r ~/Desktop/scicomp301/
 mkdir ~/Desktop/scicomp301
 git clone https://github.com/dbiersach/scicomp301-cpp-linux.git ~/Desktop/scicomp301
 cp -ar ~/scicomp-labs-cpp-linux/hello-world/ ~/Desktop/scicomp301/session02/lab1/
@@ -133,6 +138,11 @@ cp -ar ~/scicomp-labs-cpp-linux/ifs-hexagon/ ~/Desktop/scicomp301/exam3/q06/
 cp -ar ~/scicomp-labs-cpp-linux/idw2/ ~/Desktop/scicomp301/exam3/q07/
 cp -ar ~/scicomp-labs-cpp-linux/mc-stdnormal/ ~/Desktop/scicomp301/exam3/q08/
 cp -ar ~/scicomp-labs-cpp-linux/kmeans-3sigma/ ~/Desktop/scicomp301/exam3/q09/
+cp -ar ~/scicomp-labs-cpp-linux-clang/spectrum-rydberg/ ~/Desktop/scicomp301/session25/lab1/
+cp -ar ~/scicomp-labs-cpp-linux-clang/spectrum-bohr/ ~/Desktop/scicomp301/session25/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/circuits-logisim/ ~/Desktop/scicomp301/session26/lab2/
+cp -ar ~/scicomp-labs-cpp-linux/circuits-logisim/ ~/Desktop/scicomp301/session26/lab3/
+rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rm -f -r ~/Desktop/scicomp301-old/
 

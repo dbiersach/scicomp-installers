@@ -8,6 +8,8 @@ git clone https://github.com/dbiersach/scicomp-labs-cpp-linux-clang ~/scicomp-la
 rm -f -r ~/scicomp-labs-cpp-linux-cernroot
 mkdir ~/scicomp-labs-cpp-linux-cernroot
 git clone https://github.com/dbiersach/scicomp-labs-cpp-linux-cernroot ~/scicomp-labs-cpp-linux-cernroot
+cd ~/Desktop/scicomp301/
+find . -name "*.desktop" -delete
 mv -T ~/Desktop/scicomp301 ~/Desktop/scicomp301-old
 mkdir ~/Desktop/scicomp301
 git clone https://github.com/dbiersach/scicomp301-cpp-linux.git ~/Desktop/scicomp301
@@ -145,4 +147,35 @@ cp -ar ~/scicomp-labs-cpp-linux/circuits-logisim/ ~/Desktop/scicomp301/session26
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rm -f -r ~/Desktop/scicomp301-old/
+cd ~/Desktop/scicomp301/
+chmod +x './exam1/Exam 1 Questions.desktop'
+chmod +x './exam2/Exam 2 Questions.desktop'
+chmod +x './exam3/Exam 3 Questions.desktop'
+chmod +x './session01/Session 01 - Course Introduction.desktop'
+chmod +x './session02/Session 02 - Code Structure, Variables.desktop'
+chmod +x './session03/Session 03 - Loops, Conditionals, Modulus.desktop'
+chmod +x './session04/Session 04 - Vectors, Random Numbers, Timing.desktop'
+chmod +x './session05/Session 05 - 2D Graphics, Polar Coordinates.desktop'
+chmod +x './session06/Session 06 - Statistics, Euler Line.desktop'
+chmod +x './session07/Session 07 - Creating a New Project.desktop'
+chmod +x './session08/Session 08 - Algorithms, Series Convergence.desktop'
+chmod +x './session09/Session 09 - Equilibrium Simulation.desktop'
+chmod +x './session10/Session 10 - Matrix Algebra, Number Theory.desktop'
+chmod +x './session11/Session 11 - Complex Algebra.desktop'
+chmod +x './session12/Session 12 - Continued Fractions, Chi Squared.desktop'
+chmod +x './session13/Session 13 - CERN ROOT, Nyquist Sampling.desktop'
+chmod +x './session14/Session 14 - Cryptanalysis, Anagrams.desktop'
+chmod +x './session15/Session 15 - Combinatorics, Encoding, Search.desktop'
+chmod +x './session16/Session 16 - 3D Graphics, Vector Algebra.desktop'
+chmod +x './session17/Session 17 - Computational Chemistry, Clustering.desktop'
+chmod +x './session18/Session 18 - Computational Biology, Earth Science.desktop'
+chmod +x './session19/Session 19 - Computational Physics.desktop'
+chmod +x './session20/Session 20 - Monte Carlo Method.desktop'
+chmod +x './session21/Session 21 - Fourier Transform, Signals Analysis.desktop'
+chmod +x './session22/Session 22 - Search Algorithms, Adjacency Matrix.desktop'
+chmod +x './session23/Session 23 - Difference Tables, Least Squares.desktop'
+chmod +x './session24/Session 24 - Dynamical Systems, Fractals.desktop'
+chmod +x './session25/Session 25 - Early Quantum Mechanics.desktop'
+chmod +x './session26/Session 26 - Boolean Algebra, Logic Gates.desktop'
+
 

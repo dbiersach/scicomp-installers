@@ -1,152 +1,184 @@
 #!/bin/bash
-rm -f -r ~/scicomp-labs-cpp-linux/
-mkdir ~/scicomp-labs-cpp-linux
-git clone https://github.com/dbiersach/scicomp-labs-cpp-linux.git ~/scicomp-labs-cpp-linux
-rm -f -r ~/scicomp-labs-cpp-linux-clang
-mkdir ~/scicomp-labs-cpp-linux-clang
-git clone https://github.com/dbiersach/scicomp-labs-cpp-linux-clang ~/scicomp-labs-cpp-linux-clang
-rm -f -r ~/scicomp-labs-cpp-linux-cernroot
-mkdir ~/scicomp-labs-cpp-linux-cernroot
-git clone https://github.com/dbiersach/scicomp-labs-cpp-linux-cernroot ~/scicomp-labs-cpp-linux-cernroot
+rm -f -r ~/scicomp-labs-cpp/
+mkdir ~/scicomp-labs-cpp
+git clone https://github.com/dbiersach/scicomp-labs-cpp ~/scicomp-labs-cpp
+
 cd ~/Desktop/scicomp301/
 find . -name "*.desktop" -delete
 mv -T ~/Desktop/scicomp301 ~/Desktop/scicomp301-old
 mkdir ~/Desktop/scicomp301
-git clone https://github.com/dbiersach/scicomp301-cpp-linux.git ~/Desktop/scicomp301
-cp -ar ~/scicomp-labs-cpp-linux/hello-world/ ~/Desktop/scicomp301/session02/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/age-converter/ ~/Desktop/scicomp301/session02/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/temperature-converter/ ~/Desktop/scicomp301/session02/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/perfect-numbers/ ~/Desktop/scicomp301/session03/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/newton-sqrt/ ~/Desktop/scicomp301/session03/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/bigint-sqrt/ ~/Desktop/scicomp301/session03/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/factor-quadratic/ ~/Desktop/scicomp301/session03/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/simpsons-rule/ ~/Desktop/scicomp301/session03/lab5/
-cp -ar ~/scicomp-labs-cpp-linux/circle-area/ ~/Desktop/scicomp301/session03/lab6/
-cp -ar ~/scicomp-labs-cpp-linux/list-cards/ ~/Desktop/scicomp301/session04/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/dealer-bogus/ ~/Desktop/scicomp301/session04/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/dealer-slow/ ~/Desktop/scicomp301/session04/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/dealer-fast/ ~/Desktop/scicomp301/session04/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/primality-race-v1/ ~/Desktop/scicomp301/session04/lab5/
-cp -ar ~/scicomp-labs-cpp-linux/draw-triangle/ ~/Desktop/scicomp301/session05/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/draw-rectangle/ ~/Desktop/scicomp301/session05/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/draw-circle/ ~/Desktop/scicomp301/session05/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/draw-rings/ ~/Desktop/scicomp301/session05/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/draw-curves/ ~/Desktop/scicomp301/session05/lab5/
-cp -ar ~/scicomp-labs-cpp-linux/hero-abilities/ ~/Desktop/scicomp301/session06/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/uniform-variance/ ~/Desktop/scicomp301/session06/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/random-straws/ ~/Desktop/scicomp301/session06/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/euler-line/ ~/Desktop/scicomp301/session06/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/sum-squares/ ~/Desktop/scicomp301/session07/.demo-lab1/
-cp -ar ~/scicomp-labs-cpp-linux/bubble-sort/ ~/Desktop/scicomp301/session07/.demo-lab2/
-cp -ar ~/scicomp-labs-cpp-linux/euler-totient/ ~/Desktop/scicomp301/session07/.demo-lab3/
-cp -ar ~/scicomp-labs-cpp-linux/herons-formula/ ~/Desktop/scicomp301/session07/.demo-lab4/
-cp -ar ~/scicomp-labs-cpp-linux/statistics/ ~/Desktop/scicomp301/session07/.demo-lab5/
-cp -ar ~/scicomp-labs-cpp-linux/basel-series/ ~/Desktop/scicomp301/session08/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/euclid-gcd/ ~/Desktop/scicomp301/session08/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/coprime-probability/ ~/Desktop/scicomp301/session08/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/birthday-paradox/ ~/Desktop/scicomp301/session08/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/herons-method/ ~/Desktop/scicomp301/exam1/q01/
-cp -ar ~/scicomp-labs-cpp-linux/adaptive-quadrature/ ~/Desktop/scicomp301/exam1/q02/
-cp -ar ~/scicomp-labs-cpp-linux/sum-multiples/ ~/Desktop/scicomp301/exam1/q03/
-cp -ar ~/scicomp-labs-cpp-linux/temperature-converter2/ ~/Desktop/scicomp301/exam1/q04/
-cp -ar ~/scicomp-labs-cpp-linux/qsort-median3/ ~/Desktop/scicomp301/exam1/q05/
-cp -ar ~/scicomp-labs-cpp-linux/lcm-gcd/ ~/Desktop/scicomp301/exam1/q06/
-cp -ar ~/scicomp-labs-cpp-linux/vector-addition/ ~/Desktop/scicomp301/exam1/q07/
-cp -ar ~/scicomp-labs-cpp-linux/hamming-weight/ ~/Desktop/scicomp301/exam1/q08/
-cp -ar ~/scicomp-labs-cpp-linux/multi-modal/ ~/Desktop/scicomp301/exam1/q09/
-cp -ar ~/scicomp-labs-cpp-linux/lattice-circle/ ~/Desktop/scicomp301/exam1/q10/
-cp -ar ~/scicomp-labs-cpp-linux/gauss-sum/ ~/Desktop/scicomp301/session09/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/jenga-14/ ~/Desktop/scicomp301/session09/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/jenga-15/ ~/Desktop/scicomp301/session09/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/matrix-multiply/ ~/Desktop/scicomp301/session10/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/matrix-determinant/ ~/Desktop/scicomp301/session10/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/cramers-rule/ ~/Desktop/scicomp301/session10/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/goldbach-conjecture/ ~/Desktop/scicomp301/session10/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/complex-algebra/ ~/Desktop/scicomp301/session11/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/complex-factorization/ ~/Desktop/scicomp301/session11/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/euler-identity/ ~/Desktop/scicomp301/session11/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/euler-equation/ ~/Desktop/scicomp301/session11/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/euler-gamma/ ~/Desktop/scicomp301/session11/lab5/
-cp -ar ~/scicomp-labs-cpp-linux/riemann-hypothesis/ ~/Desktop/scicomp301/session11/lab6/
-cp -ar ~/scicomp-labs-cpp-linux/stdcf-encode/ ~/Desktop/scicomp301/session12/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/stdcf-decode/ ~/Desktop/scicomp301/session12/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/pells-equation/ ~/Desktop/scicomp301/session12/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/pachinko-normal/ ~/Desktop/scicomp301/session12/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/nyquist-known/ ~/Desktop/scicomp301/session13/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/nyquist-unknown/ ~/Desktop/scicomp301/session13/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/collatz-conjecture/ ~/Desktop/scicomp301/session13/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/reverse-string/ ~/Desktop/scicomp301/session14/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/freq-plaintext/ ~/Desktop/scicomp301/session14/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/freq-ciphertext/ ~/Desktop/scicomp301/session14/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/caesar-decrypt/ ~/Desktop/scicomp301/session14/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/freq-bigrams/ ~/Desktop/scicomp301/session14/lab5/
-cp -ar ~/scicomp-labs-cpp-linux/anagrams-slow/ ~/Desktop/scicomp301/session14/lab6/
-cp -ar ~/scicomp-labs-cpp-linux/anagrams-fast/ ~/Desktop/scicomp301/session14/lab7/
-cp -ar ~/scicomp-labs-cpp-linux/anagrams-compound/ ~/Desktop/scicomp301/session14/lab8/
-cp -ar ~/scicomp-labs-cpp-linux/factorial-recursive/ ~/Desktop/scicomp301/session15/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/scramble-squares/ ~/Desktop/scicomp301/session15/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/draw-polynomial/ ~/Desktop/scicomp301/session16/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/draw-monolith/ ~/Desktop/scicomp301/session16/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/draw-pyramid/ ~/Desktop/scicomp301/session16/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/draw-sphere/ ~/Desktop/scicomp301/session16/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/draw-torus/ ~/Desktop/scicomp301/session16/lab5/
-cp -ar ~/scicomp-labs-cpp-linux/stoichiometry/ ~/Desktop/scicomp301/session17/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/kmeans/ ~/Desktop/scicomp301/session17/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/lrss-bubble/ ~/Desktop/scicomp301/session18/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/lrss-qsort/ ~/Desktop/scicomp301/session18/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/freq-substr/ ~/Desktop/scicomp301/session18/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/idw/ ~/Desktop/scicomp301/session18/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/projectile-motion/ ~/Desktop/scicomp301/session19/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/decay-fluorine18/ ~/Desktop/scicomp301/session19/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/decay-carbon14/ ~/Desktop/scicomp301/session19/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/pendulum/ ~/Desktop/scicomp301/session19/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/harmonograph/ ~/Desktop/scicomp301/session19/lab5/
-cp -ar ~/scicomp-labs-cpp-linux/mc-circle-prng/ ~/Desktop/scicomp301/session20/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/mc-circle-qrng/ ~/Desktop/scicomp301/session20/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/mc-sphere/ ~/Desktop/scicomp301/session20/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/mc-hypersphere/ ~/Desktop/scicomp301/session20/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/mc-highdimensional/ ~/Desktop/scicomp301/session20/lab5/
-cp -ar ~/scicomp-labs-cpp-linux/nball-volume/ ~/Desktop/scicomp301/session20/lab6/
-cp -ar ~/scicomp-labs-cpp-linux/solve4x4-given/ ~/Desktop/scicomp301/exam2/q01/
-cp -ar ~/scicomp-labs-cpp-linux/solve10x10-random/ ~/Desktop/scicomp301/exam2/q02/
-cp -ar ~/scicomp-labs-cpp-linux/riemann-pi/ ~/Desktop/scicomp301/exam2/q03/
-cp -ar ~/scicomp-labs-cpp-linux/gamma-eta/ ~/Desktop/scicomp301/exam2/q04/
-cp -ar ~/scicomp-labs-cpp-linux/stdcf-biersach/ ~/Desktop/scicomp301/exam2/q05/
-cp -ar ~/scicomp-labs-cpp-linux/stdnormal-area/ ~/Desktop/scicomp301/exam2/q06/
-cp -ar ~/scicomp-labs-cpp-linux/decrypt-ciphertext/ ~/Desktop/scicomp301/exam2/q07/
-cp -ar ~/scicomp-labs-cpp-linux/find-orf/ ~/Desktop/scicomp301/exam2/q08/
-cp -ar ~/scicomp-labs-cpp-linux/draw-cylinder/ ~/Desktop/scicomp301/exam2/q09/
-cp -ar ~/scicomp-labs-cpp-linux/sinewave-7x13/ ~/Desktop/scicomp301/exam2/q10/
-cp -ar ~/scicomp-labs-cpp-linux/make-samples/ ~/Desktop/scicomp301/session21/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/fourier-discrete/ ~/Desktop/scicomp301/session21/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/space-signals/ ~/Desktop/scicomp301/session21/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/sunspots/ ~/Desktop/scicomp301/session21/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/maze-draw/ ~/Desktop/scicomp301/session22/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/maze-search/ ~/Desktop/scicomp301/session22/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/maze-search-adj/ ~/Desktop/scicomp301/session22/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/quadratic-regression/ ~/Desktop/scicomp301/session23/lab5/
-cp -ar ~/scicomp-labs-cpp-linux/logistic-map/ ~/Desktop/scicomp301/session24/lab1/
-cp -ar ~/scicomp-labs-cpp-linux/mandelbrot-set/ ~/Desktop/scicomp301/session24/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/ifs-triangle/ ~/Desktop/scicomp301/session24/lab3/
-cp -ar ~/scicomp-labs-cpp-linux/ifs-fern/ ~/Desktop/scicomp301/session24/lab4/
-cp -ar ~/scicomp-labs-cpp-linux/ifs-bnl/ ~/Desktop/scicomp301/session24/lab5/
-cp -ar ~/scicomp-labs-cpp-linux/ifs-square/ ~/Desktop/scicomp301/session24/lab6/
-cp -ar ~/scicomp-labs-cpp-linux/rk4-lv/ ~/Desktop/scicomp301/exam3/q01/
-cp -ar ~/scicomp-labs-cpp-linux/damped-pendulum/ ~/Desktop/scicomp301/exam3/q02/
-cp -ar ~/scicomp-labs-cpp-linux/dft2-filter/ ~/Desktop/scicomp301/exam3/q03/
-cp -ar ~/scicomp-labs-cpp-linux/kinematics-regression/ ~/Desktop/scicomp301/exam3/q04/
-cp -ar ~/scicomp-labs-cpp-linux/octane-combustion/ ~/Desktop/scicomp301/exam3/q05/
-cp -ar ~/scicomp-labs-cpp-linux/ifs-hexagon/ ~/Desktop/scicomp301/exam3/q06/
-cp -ar ~/scicomp-labs-cpp-linux/idw2/ ~/Desktop/scicomp301/exam3/q07/
-cp -ar ~/scicomp-labs-cpp-linux/mc-stdnormal/ ~/Desktop/scicomp301/exam3/q08/
-cp -ar ~/scicomp-labs-cpp-linux/kmeans-3sigma/ ~/Desktop/scicomp301/exam3/q09/
-cp -ar ~/scicomp-labs-cpp-linux-clang/spectrum-rydberg/ ~/Desktop/scicomp301/session25/lab1/
-cp -ar ~/scicomp-labs-cpp-linux-clang/spectrum-bohr/ ~/Desktop/scicomp301/session25/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/circuits-logisim/ ~/Desktop/scicomp301/session26/lab2/
-cp -ar ~/scicomp-labs-cpp-linux/circuits-logisim/ ~/Desktop/scicomp301/session26/lab3/
+
+git clone https://github.com/dbiersach/scicomp301-cpp-linux ~/Desktop/scicomp301
+
+cp -ar ~/scicomp-labs-cpp/hello-world/ ~/Desktop/scicomp301/session02/lab1/
+cp -ar ~/scicomp-labs-cpp/age-converter/ ~/Desktop/scicomp301/session02/lab2/
+cp -ar ~/scicomp-labs-cpp/temperature-converter/ ~/Desktop/scicomp301/session02/lab3/
+
+cp -ar ~/scicomp-labs-cpp/perfect-numbers/ ~/Desktop/scicomp301/session03/lab1/
+cp -ar ~/scicomp-labs-cpp/newton-sqrt/ ~/Desktop/scicomp301/session03/lab2/
+cp -ar ~/scicomp-labs-cpp/bigint-sqrt/ ~/Desktop/scicomp301/session03/lab3/
+cp -ar ~/scicomp-labs-cpp/factor-quadratic/ ~/Desktop/scicomp301/session03/lab4/
+cp -ar ~/scicomp-labs-cpp/simpsons-rule/ ~/Desktop/scicomp301/session03/lab5/
+cp -ar ~/scicomp-labs-cpp/circle-area/ ~/Desktop/scicomp301/session03/lab6/
+
+cp -ar ~/scicomp-labs-cpp/list-cards/ ~/Desktop/scicomp301/session04/lab1/
+cp -ar ~/scicomp-labs-cpp/dealer-bogus/ ~/Desktop/scicomp301/session04/lab2/
+cp -ar ~/scicomp-labs-cpp/dealer-slow/ ~/Desktop/scicomp301/session04/lab3/
+cp -ar ~/scicomp-labs-cpp/dealer-fast/ ~/Desktop/scicomp301/session04/lab4/
+cp -ar ~/scicomp-labs-cpp/primality-race-v1/ ~/Desktop/scicomp301/session04/lab5/
+
+cp -ar ~/scicomp-labs-cpp/draw-triangle/ ~/Desktop/scicomp301/session05/lab1/
+cp -ar ~/scicomp-labs-cpp/draw-rectangle/ ~/Desktop/scicomp301/session05/lab2/
+cp -ar ~/scicomp-labs-cpp/draw-circle/ ~/Desktop/scicomp301/session05/lab3/
+cp -ar ~/scicomp-labs-cpp/draw-rings/ ~/Desktop/scicomp301/session05/lab4/
+cp -ar ~/scicomp-labs-cpp/draw-curves/ ~/Desktop/scicomp301/session05/lab5/
+
+cp -ar ~/scicomp-labs-cpp/hero-abilities/ ~/Desktop/scicomp301/session06/lab1/
+cp -ar ~/scicomp-labs-cpp/uniform-variance/ ~/Desktop/scicomp301/session06/lab2/
+cp -ar ~/scicomp-labs-cpp/random-straws/ ~/Desktop/scicomp301/session06/lab3/
+cp -ar ~/scicomp-labs-cpp/euler-line/ ~/Desktop/scicomp301/session06/lab4/
+
+cp -ar ~/scicomp-labs-cpp/sum-squares/ ~/Desktop/scicomp301/session07/.demo-lab1/
+cp -ar ~/scicomp-labs-cpp/bubble-sort/ ~/Desktop/scicomp301/session07/.demo-lab2/
+cp -ar ~/scicomp-labs-cpp/euler-totient/ ~/Desktop/scicomp301/session07/.demo-lab3/
+cp -ar ~/scicomp-labs-cpp/herons-formula/ ~/Desktop/scicomp301/session07/.demo-lab4/
+cp -ar ~/scicomp-labs-cpp/statistics/ ~/Desktop/scicomp301/session07/.demo-lab5/
+
+cp -ar ~/scicomp-labs-cpp/basel-series/ ~/Desktop/scicomp301/session08/lab1/
+cp -ar ~/scicomp-labs-cpp/euclid-gcd/ ~/Desktop/scicomp301/session08/lab2/
+cp -ar ~/scicomp-labs-cpp/coprime-probability/ ~/Desktop/scicomp301/session08/lab3/
+cp -ar ~/scicomp-labs-cpp/birthday-paradox/ ~/Desktop/scicomp301/session08/lab4/
+
+cp -ar ~/scicomp-labs-cpp/herons-method/ ~/Desktop/scicomp301/exam1/q01/
+cp -ar ~/scicomp-labs-cpp/adaptive-quadrature/ ~/Desktop/scicomp301/exam1/q02/
+cp -ar ~/scicomp-labs-cpp/sum-multiples/ ~/Desktop/scicomp301/exam1/q03/
+cp -ar ~/scicomp-labs-cpp/temperature-converter2/ ~/Desktop/scicomp301/exam1/q04/
+cp -ar ~/scicomp-labs-cpp/qsort-median3/ ~/Desktop/scicomp301/exam1/q05/
+cp -ar ~/scicomp-labs-cpp/lcm-gcd/ ~/Desktop/scicomp301/exam1/q06/
+cp -ar ~/scicomp-labs-cpp/vector-addition/ ~/Desktop/scicomp301/exam1/q07/
+cp -ar ~/scicomp-labs-cpp/hamming-weight/ ~/Desktop/scicomp301/exam1/q08/
+cp -ar ~/scicomp-labs-cpp/multi-modal/ ~/Desktop/scicomp301/exam1/q09/
+cp -ar ~/scicomp-labs-cpp/lattice-circle/ ~/Desktop/scicomp301/exam1/q10/
+
+cp -ar ~/scicomp-labs-cpp/gauss-sum/ ~/Desktop/scicomp301/session09/lab1/
+cp -ar ~/scicomp-labs-cpp/jenga-14/ ~/Desktop/scicomp301/session09/lab2/
+cp -ar ~/scicomp-labs-cpp/jenga-15/ ~/Desktop/scicomp301/session09/lab3/
+
+cp -ar ~/scicomp-labs-cpp/matrix-multiply/ ~/Desktop/scicomp301/session10/lab1/
+cp -ar ~/scicomp-labs-cpp/matrix-determinant/ ~/Desktop/scicomp301/session10/lab2/
+cp -ar ~/scicomp-labs-cpp/cramers-rule/ ~/Desktop/scicomp301/session10/lab3/
+cp -ar ~/scicomp-labs-cpp/goldbach-conjecture/ ~/Desktop/scicomp301/session10/lab4/
+
+cp -ar ~/scicomp-labs-cpp/complex-algebra/ ~/Desktop/scicomp301/session11/lab1/
+cp -ar ~/scicomp-labs-cpp/complex-factorization/ ~/Desktop/scicomp301/session11/lab2/
+cp -ar ~/scicomp-labs-cpp/euler-identity/ ~/Desktop/scicomp301/session11/lab3/
+cp -ar ~/scicomp-labs-cpp/euler-equation/ ~/Desktop/scicomp301/session11/lab4/
+cp -ar ~/scicomp-labs-cpp/euler-gamma/ ~/Desktop/scicomp301/session11/lab5/
+cp -ar ~/scicomp-labs-cpp/riemann-hypothesis/ ~/Desktop/scicomp301/session11/lab6/
+
+cp -ar ~/scicomp-labs-cpp/stdcf-encode/ ~/Desktop/scicomp301/session12/lab1/
+cp -ar ~/scicomp-labs-cpp/stdcf-decode/ ~/Desktop/scicomp301/session12/lab2/
+cp -ar ~/scicomp-labs-cpp/pells-equation/ ~/Desktop/scicomp301/session12/lab3/
+cp -ar ~/scicomp-labs-cpp/pachinko-normal/ ~/Desktop/scicomp301/session12/lab4/
+
+cp -ar ~/scicomp-labs-cpp/nyquist_known/ ~/Desktop/scicomp301/session13/lab1/
+cp -ar ~/scicomp-labs-cpp/nyquist_unknown/ ~/Desktop/scicomp301/session13/lab2/
+cp -ar ~/scicomp-labs-cpp/collatz_conjecture/ ~/Desktop/scicomp301/session13/lab3/
+
+cp -ar ~/scicomp-labs-cpp/reverse-string/ ~/Desktop/scicomp301/session14/lab1/
+cp -ar ~/scicomp-labs-cpp/freq_histogram/ ~/Desktop/scicomp301/session14/lab2/
+cp -ar ~/scicomp-labs-cpp/caesar-decrypt/ ~/Desktop/scicomp301/session14/lab3/
+cp -ar ~/scicomp-labs-cpp/freq-bigrams/ ~/Desktop/scicomp301/session14/lab4/
+cp -ar ~/scicomp-labs-cpp/anagrams-slow/ ~/Desktop/scicomp301/session14/lab5/
+cp -ar ~/scicomp-labs-cpp/anagrams-fast/ ~/Desktop/scicomp301/session14/lab6/
+cp -ar ~/scicomp-labs-cpp/anagrams-compound/ ~/Desktop/scicomp301/session14/lab7/
+
+cp -ar ~/scicomp-labs-cpp/factorial-recursive/ ~/Desktop/scicomp301/session15/lab1/
+cp -ar ~/scicomp-labs-cpp/scramble-squares/ ~/Desktop/scicomp301/session15/lab2/
+
+cp -ar ~/scicomp-labs-cpp/draw-polynomial/ ~/Desktop/scicomp301/session16/lab1/
+cp -ar ~/scicomp-labs-cpp/draw-monolith/ ~/Desktop/scicomp301/session16/lab2/
+cp -ar ~/scicomp-labs-cpp/draw-pyramid/ ~/Desktop/scicomp301/session16/lab3/
+cp -ar ~/scicomp-labs-cpp/draw-sphere/ ~/Desktop/scicomp301/session16/lab4/
+cp -ar ~/scicomp-labs-cpp/draw-torus/ ~/Desktop/scicomp301/session16/lab5/
+
+cp -ar ~/scicomp-labs-cpp/stoichiometry/ ~/Desktop/scicomp301/session17/lab1/
+cp -ar ~/scicomp-labs-cpp/kmeans/ ~/Desktop/scicomp301/session17/lab2/
+
+cp -ar ~/scicomp-labs-cpp/lrss-bubble/ ~/Desktop/scicomp301/session18/lab1/
+cp -ar ~/scicomp-labs-cpp/lrss-qsort/ ~/Desktop/scicomp301/session18/lab2/
+cp -ar ~/scicomp-labs-cpp/freq-substr/ ~/Desktop/scicomp301/session18/lab3/
+cp -ar ~/scicomp-labs-cpp/idw/ ~/Desktop/scicomp301/session18/lab4/idw
+
+cp -ar ~/scicomp-labs-cpp/projectile-motion/ ~/Desktop/scicomp301/session19/lab1/
+cp -ar ~/scicomp-labs-cpp/decay-fluorine18/ ~/Desktop/scicomp301/session19/lab2/
+cp -ar ~/scicomp-labs-cpp/decay-carbon14/ ~/Desktop/scicomp301/session19/lab3/
+cp -ar ~/scicomp-labs-cpp/pendulum/ ~/Desktop/scicomp301/session19/lab4/
+cp -ar ~/scicomp-labs-cpp/harmonograph/ ~/Desktop/scicomp301/session19/lab5/
+
+cp -ar ~/scicomp-labs-cpp/mc-circle-prng/ ~/Desktop/scicomp301/session20/lab1/
+cp -ar ~/scicomp-labs-cpp/mc-circle-qrng/ ~/Desktop/scicomp301/session20/lab2/
+cp -ar ~/scicomp-labs-cpp/mc-sphere/ ~/Desktop/scicomp301/session20/lab3/
+cp -ar ~/scicomp-labs-cpp/mc-hypersphere/ ~/Desktop/scicomp301/session20/lab4/
+cp -ar ~/scicomp-labs-cpp/mc-highdimensional/ ~/Desktop/scicomp301/session20/lab5/
+cp -ar ~/scicomp-labs-cpp/nball-volume/ ~/Desktop/scicomp301/session20/lab6/
+
+cp -ar ~/scicomp-labs-cpp/solve4x4-given/ ~/Desktop/scicomp301/exam2/q01/
+cp -ar ~/scicomp-labs-cpp/solve10x10-random/ ~/Desktop/scicomp301/exam2/q02/
+cp -ar ~/scicomp-labs-cpp/riemann-pi/ ~/Desktop/scicomp301/exam2/q03/
+cp -ar ~/scicomp-labs-cpp/gamma-eta/ ~/Desktop/scicomp301/exam2/q04/
+cp -ar ~/scicomp-labs-cpp/stdcf-biersach/ ~/Desktop/scicomp301/exam2/q05/
+cp -ar ~/scicomp-labs-cpp/stdnormal-area/ ~/Desktop/scicomp301/exam2/q06/
+cp -ar ~/scicomp-labs-cpp/decrypt-ciphertext/ ~/Desktop/scicomp301/exam2/q07/
+cp -ar ~/scicomp-labs-cpp/find-orf/ ~/Desktop/scicomp301/exam2/q08/
+cp -ar ~/scicomp-labs-cpp/draw-cylinder/ ~/Desktop/scicomp301/exam2/q09/
+cp -ar ~/scicomp-labs-cpp/sinewave_7x13/ ~/Desktop/scicomp301/exam2/q10/
+
+cp -ar ~/scicomp-labs-cpp/make-samples/ ~/Desktop/scicomp301/session21/lab1/
+cp -ar ~/scicomp-labs-cpp/fourier_discrete/ ~/Desktop/scicomp301/session21/lab2/
+cp -ar ~/scicomp-labs-cpp/space_signals/ ~/Desktop/scicomp301/session21/lab3/
+cp -ar ~/scicomp-labs-cpp/sunspots/ ~/Desktop/scicomp301/session21/lab4/
+
+cp -ar ~/scicomp-labs-cpp/maze-draw/ ~/Desktop/scicomp301/session22/lab1/
+cp -ar ~/scicomp-labs-cpp/maze-search/ ~/Desktop/scicomp301/session22/lab2/
+cp -ar ~/scicomp-labs-cpp/maze-search-adj/ ~/Desktop/scicomp301/session22/lab3/
+
+cp -ar ~/scicomp-labs-cpp/quadratic-regression/ ~/Desktop/scicomp301/session23/lab5/
+
+cp -ar ~/scicomp-labs-cpp/logistic-map/ ~/Desktop/scicomp301/session24/lab1/
+cp -ar ~/scicomp-labs-cpp/mandelbrot-set/ ~/Desktop/scicomp301/session24/lab2/
+cp -ar ~/scicomp-labs-cpp/ifs-triangle/ ~/Desktop/scicomp301/session24/lab3/
+cp -ar ~/scicomp-labs-cpp/ifs-fern/ ~/Desktop/scicomp301/session24/lab4/
+cp -ar ~/scicomp-labs-cpp/ifs-bnl/ ~/Desktop/scicomp301/session24/lab5/
+cp -ar ~/scicomp-labs-cpp/ifs-square/ ~/Desktop/scicomp301/session24/lab6/
+
+cp -ar ~/scicomp-labs-cpp/rk4_lv/ ~/Desktop/scicomp301/exam3/q01/
+cp -ar ~/scicomp-labs-cpp/damped_pendulum/ ~/Desktop/scicomp301/exam3/q02/
+cp -ar ~/scicomp-labs-cpp/fourier_filter/ ~/Desktop/scicomp301/exam3/q03/
+cp -ar ~/scicomp-labs-cpp/kinematics-regression/ ~/Desktop/scicomp301/exam3/q04/
+cp -ar ~/scicomp-labs-cpp/octane-combustion/ ~/Desktop/scicomp301/exam3/q05/
+cp -ar ~/scicomp-labs-cpp/ifs-hexagon/ ~/Desktop/scicomp301/exam3/q06/
+cp -ar ~/scicomp-labs-cpp/idw2/ ~/Desktop/scicomp301/exam3/q07/
+cp -ar ~/scicomp-labs-cpp/mc-stdnormal/ ~/Desktop/scicomp301/exam3/q08/
+cp -ar ~/scicomp-labs-cpp/kmeans-eviction/ ~/Desktop/scicomp301/exam3/q09/
+
+cp -ar ~/scicomp-labs-cpp/spectrum-rydberg/ ~/Desktop/scicomp301/session25/lab1/
+cp -ar ~/scicomp-labs-cpp/spectrum-bohr/ ~/Desktop/scicomp301/session25/lab2/
+
+cp -ar ~/scicomp-labs-cpp/circuits-logisim/ ~/Desktop/scicomp301/session26/lab2/
+cp -ar ~/scicomp-labs-cpp/circuits-logisim/ ~/Desktop/scicomp301/session26/lab3/
+
+cp -ar ~/scicomp-labs-cpp/simple-threading/ ~/Desktop/scicomp301/session27/lab1/
+cp -ar ~/scicomp-labs-cpp/race-condition/ ~/Desktop/scicomp301/session27/lab2/
+cp -ar ~/scicomp-labs-cpp/mutex/ ~/Desktop/scicomp301/session27/lab3/
+cp -ar ~/scicomp-labs-cpp/nonatomic-op/ ~/Desktop/scicomp301/session27/lab4/
+cp -ar ~/scicomp-labs-cpp/parallel-simpsons/ ~/Desktop/scicomp301/session27/lab5/
+
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
 rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
+
 rm -f -r ~/Desktop/scicomp301-old/
+
 cd ~/Desktop/scicomp301/
 chmod +x './exam1/Exam 1 Questions.desktop'
 chmod +x './exam2/Exam 2 Questions.desktop'
@@ -177,5 +209,5 @@ chmod +x './session23/Session 23 - Difference Tables, Least Squares.desktop'
 chmod +x './session24/Session 24 - Dynamical Systems, Fractals.desktop'
 chmod +x './session25/Session 25 - Early Quantum Mechanics.desktop'
 chmod +x './session26/Session 26 - Boolean Algebra, Logic Gates.desktop'
-
+chmod +x './session26/Session 27 - Parallel Programing Using Threads.desktop'
 

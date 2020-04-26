@@ -209,5 +209,5 @@ chmod +x './session23/Session 23 - Difference Tables, Least Squares.desktop'
 chmod +x './session24/Session 24 - Dynamical Systems, Fractals.desktop'
 chmod +x './session25/Session 25 - Early Quantum Mechanics.desktop'
 chmod +x './session26/Session 26 - Boolean Algebra, Logic Gates.desktop'
-chmod +x './session26/Session 27 - Parallel Programing Using Threads.desktop'
+chmod +x './session27/Session 27 - Parallel Programing Using Threads.desktop'
 

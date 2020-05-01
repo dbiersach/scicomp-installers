@@ -212,3 +212,4 @@ chmod +x './session26/Session 26 - Boolean Algebra, Logic Gates.desktop'
 chmod +x './session27/Session 27 - Parallel Programing Using Threads.desktop'
 
 rm -f -r .git/
+rm .gitignore

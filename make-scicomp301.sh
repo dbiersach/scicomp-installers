@@ -108,11 +108,11 @@ cp -ar ~/scicomp-labs-cpp/kmeans/ ~/Desktop/scicomp301/session17/lab2/
 cp -ar ~/scicomp-labs-cpp/lrss-bubble/ ~/Desktop/scicomp301/session18/lab1/
 cp -ar ~/scicomp-labs-cpp/lrss-qsort/ ~/Desktop/scicomp301/session18/lab2/
 cp -ar ~/scicomp-labs-cpp/freq-substr/ ~/Desktop/scicomp301/session18/lab3/
-cp -ar ~/scicomp-labs-cpp/idw/ ~/Desktop/scicomp301/session18/lab4/idw
+cp -ar ~/scicomp-labs-cpp/idw/ ~/Desktop/scicomp301/session18/lab4
 
 cp -ar ~/scicomp-labs-cpp/projectile-motion/ ~/Desktop/scicomp301/session19/lab1/
-cp -ar ~/scicomp-labs-cpp/decay-fluorine18/ ~/Desktop/scicomp301/session19/lab2/
-cp -ar ~/scicomp-labs-cpp/decay-carbon14/ ~/Desktop/scicomp301/session19/lab3/
+cp -ar ~/scicomp-labs-cpp/decay_fluorine18/ ~/Desktop/scicomp301/session19/lab2/
+cp -ar ~/scicomp-labs-cpp/decay_carbon14/ ~/Desktop/scicomp301/session19/lab3/
 cp -ar ~/scicomp-labs-cpp/pendulum/ ~/Desktop/scicomp301/session19/lab4/
 cp -ar ~/scicomp-labs-cpp/harmonograph/ ~/Desktop/scicomp301/session19/lab5/
 

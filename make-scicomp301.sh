@@ -72,7 +72,7 @@ cp -ar ~/scicomp-labs-cpp/goldbach-conjecture/ ~/Desktop/scicomp301/session10/la
 cp -ar ~/scicomp-labs-cpp/complex-algebra/ ~/Desktop/scicomp301/session11/lab1/
 cp -ar ~/scicomp-labs-cpp/complex-factorization/ ~/Desktop/scicomp301/session11/lab2/
 cp -ar ~/scicomp-labs-cpp/euler-identity/ ~/Desktop/scicomp301/session11/lab3/
-cp -ar ~/scicomp-labs-cpp/euler-equation/ ~/Desktop/scicomp301/session11/lab4/
+cp -ar ~/scicomp-labs-cpp/euler-formula/ ~/Desktop/scicomp301/session11/lab4/
 cp -ar ~/scicomp-labs-cpp/euler-gamma/ ~/Desktop/scicomp301/session11/lab5/
 cp -ar ~/scicomp-labs-cpp/riemann-hypothesis/ ~/Desktop/scicomp301/session11/lab6/
 

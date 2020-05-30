@@ -161,6 +161,7 @@ cp -ar ~/scicomp-labs-cpp/spectrum-bohr/ ~/Desktop/scicomp301/session25/lab2/
 
 cp -ar ~/scicomp-labs-cpp/circuits-logisim/ ~/Desktop/scicomp301/session26/lab2/
 cp -ar ~/scicomp-labs-cpp/circuits-logisim/ ~/Desktop/scicomp301/session26/lab3/
+cp -ar ~/scicomp-labs-cpp/circuits-logisim/ ~/Desktop/scicomp301/session26/lab4/
 
 cp -ar ~/scicomp-labs-cpp/simple-threading/ ~/Desktop/scicomp301/session27/lab1/
 cp -ar ~/scicomp-labs-cpp/mutex/ ~/Desktop/scicomp301/session27/lab2/

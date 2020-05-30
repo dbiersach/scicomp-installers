@@ -1,13 +1,7 @@
 #!/bin/bash
 rm -f -r ~/scicomp-labs-cpp/
-mkdir ~/scicomp-labs-cpp
+rm -f -r ~/Desktop/scicomp301/
 git clone https://github.com/dbiersach/scicomp-labs-cpp ~/scicomp-labs-cpp
-
-cd ~/Desktop/scicomp301/
-find . -name "*.desktop" -delete
-mv -T ~/Desktop/scicomp301 ~/Desktop/scicomp301-old
-mkdir ~/Desktop/scicomp301
-
 git clone https://github.com/dbiersach/scicomp301-cpp-linux ~/Desktop/scicomp301
 
 cp -ar ~/scicomp-labs-cpp/hello-world/ ~/Desktop/scicomp301/session02/lab1/
@@ -174,11 +168,6 @@ cp -ar ~/scicomp-labs-cpp/race-condition/ ~/Desktop/scicomp301/session27/lab3/
 cp -ar ~/scicomp-labs-cpp/nonatomic-op/ ~/Desktop/scicomp301/session27/lab4/
 cp -ar ~/scicomp-labs-cpp/parallel-simpsons/ ~/Desktop/scicomp301/session27/lab5/
 
-rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
-rsync -av --exclude=".*" ~/Desktop/scicomp301-old/ ~/Desktop/scicomp301/
-
-rm -f -r ~/Desktop/scicomp301-old/
-
 cd ~/Desktop/scicomp301/
 chmod +x './exam1/Exam 1 Questions.desktop'
 chmod +x './exam2/Exam 2 Questions.desktop'
@@ -210,6 +199,5 @@ chmod +x './session24/Session 24 - Dynamical Systems, Fractals.desktop'
 chmod +x './session25/Session 25 - Early Quantum Mechanics.desktop'
 chmod +x './session26/Session 26 - Boolean Algebra, Logic Gates.desktop'
 chmod +x './session27/Session 27 - Parallel Programing Using Threads.desktop'
-
 rm -f -r .git/
 rm .gitignore

@@ -203,6 +203,7 @@ chmod +x './session27/Session 27 - Parallel Programing Using Threads.desktop'
 rm -f -r .git/
 rm .gitignore
 
+cd ~/scicomp-installers
 mv -f auto-logout.desktop ~/.config/autostart
 mv -f set-numpad-microsoft.desktop ~/.config/autostart
 mv -f xfce4-screensaver.desktop ~/.config/autostart

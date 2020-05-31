@@ -205,7 +205,12 @@ rm .gitignore
 
 mv -f auto-logout.desktop ~/.config/autostart
 mv -f set-numpad-microsoft.desktop ~/.config/autostart
-mv -f settings.json ~/.config/Code/User
-mv -f mimeapps.list ~/.config
+mv -f xfce4-screensaver.desktop ~/.config/autostart
+mv -f xfce4-power-manager.desktop ~/.config/autostart
+
 mv -f xfce4-power-manager.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml
 mv -f xfce4-screensaver.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml
+
+mv -f settings.json ~/.config/Code/User
+mv -f mimeapps.list ~/.config
+

@@ -202,3 +202,8 @@ chmod +x './session26/Session 26 - Boolean Algebra, Logic Gates.desktop'
 chmod +x './session27/Session 27 - Parallel Programing Using Threads.desktop'
 rm -f -r .git/
 rm .gitignore
+
+mv -f auto-logout.desktop ~/.config/autostart
+mv -f set-numpad-microsoft.desktop ~/.config/autostart
+mv -f settings.json ~/.config/Code/User
+mv -f mimeapps.list ~/.config

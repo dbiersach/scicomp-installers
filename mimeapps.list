@@ -1,0 +1,12 @@
+[Default Applications]
+text/x-c++src=code_code.desktop
+text/x-chdr=code_code.desktop
+
+[Added Associations]
+text/x-c++src=code_code.desktop;
+x-scheme-handler/http=exo-web-browser.desktop;
+x-scheme-handler/https=exo-web-browser.desktop;
+application/x-desktop=geany.desktop;
+application/x-shellscript=org.gnome.gedit.desktop;
+text/x-chdr=code_code.desktop;
+application/json=code_code.desktop;

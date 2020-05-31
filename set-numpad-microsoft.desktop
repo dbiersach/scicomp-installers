@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Set numpad:microsoft
+Comment=Set numpad:microsoft
+Exec=setxkbmap -option 'numpad:microsoft'
+OnlyShowIn=XFCE;
+StartupNotify=false
+Terminal=false
+Hidden=false

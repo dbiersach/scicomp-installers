@@ -203,12 +203,12 @@ chmod +x './session27/Session 27 - Parallel Programing Using Threads.desktop'
 rm -f -r .git/
 rm .gitignore
 
-mv -f ~/scicomp-installers/auto-logout.desktop ~/.config/autostart
-mv -f ~/scicomp-installers/set-numpad-microsoft.desktop ~/.config/autostart
-mv -f ~/scicomp-installers/xfce4-screensaver.desktop ~/.config/autostart
-mv -f ~/scicomp-installers/xfce4-power-manager.desktop ~/.config/autostart
-mv -f ~/scicomp-installers/xfce4-power-manager.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml
-mv -f ~/scicomp-installers/xfce4-screensaver.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml
-mv -f ~/scicomp-installers/settings.json ~/.config/Code/User
-mv -f ~/scicomp-installers/mimeapps.list ~/.config
+cp -f ~/scicomp-installers/auto-logout.desktop ~/.config/autostart
+cp -f ~/scicomp-installers/set-numpad-microsoft.desktop ~/.config/autostart
+cp -f ~/scicomp-installers/xfce4-screensaver.desktop ~/.config/autostart
+cp -f ~/scicomp-installers/xfce4-power-manager.desktop ~/.config/autostart
+cp -f ~/scicomp-installers/xfce4-power-manager.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml
+cp -f ~/scicomp-installers/xfce4-screensaver.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml
+cp -f ~/scicomp-installers/settings.json ~/.config/Code/User
+cp -f ~/scicomp-installers/mimeapps.list ~/.config
 

@@ -212,4 +212,4 @@ cp -f ~/scicomp-installers/xfce4-screensaver.xml ~/.config/xfce4/xfconf/xfce-per
 cp -f ~/scicomp-installers/settings.json ~/.config/Code/User
 cp -f ~/scicomp-installers/mimeapps.list ~/.config
 
-chmod +x '~/scicomp-installers/fix-home.sh'
+chmod +x ~/scicomp-installers/fix-home.sh
